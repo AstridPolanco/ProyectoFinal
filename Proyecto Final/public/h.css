@@ -1,0 +1,75 @@
+table {
+    display: grid;
+    background-color: #DAF7A6;
+    padding: 0px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 25px 25px 25px 25px;
+    display:table-cell;
+    display:table;
+}
+button {
+    cursor:pointer;
+    padding: 0px;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: black;
+    }
+    button:active {
+        background-color: darkgrey;
+    }
+    button:focus {
+        outline: none;
+    }
+input {
+    padding: 60px;
+    background-color: whitesmoke;
+    border-radius: 32px;
+    text-align: right;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: maroon;
+    height: 15vh;
+    width: 50vh;
+    margin:auto;
+}
+.button {
+    width: 65px;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: black;
+    color:#ffff;
+}
+.blackbutton { 
+    background-color: black; 
+    color: white;
+}
+.greenbutton {
+    background-color: black;
+    color: white;
+}
+.greybutton {
+    background-color: #cccccc;
+}
+.bluebutton {
+    background-color: black;
+    color: #ffff;
+}
+.redbutton {
+    background-color: black;
+    color:white;
+    width: 150px;
+}
+.igbutton{
+    height: 120px;
+}
